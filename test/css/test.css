@@ -1,0 +1,48 @@
+/*---------------- Start Global--------------------*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contianer {
+    width: 1200px;
+    margin: auto;
+}
+body {height: 6000px;background-color: #fafafa;}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*---------------- End Global--------------------*/
+.post {
+    width: 300px;
+    min-height: 500px;
+}
+.post .person {
+    width: 300px;
+    height: 70px;
+}
+.post .person img {
+    float: left;
+}
+.post .person h4 {margin-left: 10px;float: left;}
+.post .img img {
+    border-top:  1px solid #999;
+    border-bottom:  1px solid #999;
+}
+.post .write-comment textarea {
+    float: left;
+    width: 195px;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+}
+.post .write-comment button {
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 0 10px 10px 0;
+}
+/*-----------------Start Navegateur --------------*/
+
